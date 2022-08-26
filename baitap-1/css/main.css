@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+#main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.topstory > div:nth-child(1) > div:nth-child(2) {
+    background-color: #f7f7f7;
+}
+
+.topstory h3 {
+    font-family: 'Merriweather', serif;
+}
+
+.topstory a {
+    color: #222;
+}
+
+.topstory a:hover {
+    color: #087cce;
+}
+
+.topstory p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.topstory > div:nth-child(1) h3 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+
+.topstory > div:nth-child(2) h3 {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+
+.topstory > div:nth-child(2) > div:nth-child(3) > a {
+    font-size: 14px;
+    line-height: 16px;
+    color: #9f224e;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+    float: left;
+}
+
+.topstory > div:nth-child(2) > div:nth-child(3) {
+    position: relative;
+}
+
+.topstory > div:nth-child(2) > div:nth-child(3):before {
+    width: 3px;
+    height: 90%;
+    content: "";
+    background: #e5e5e5;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.news > .item-news {
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.news > .item-news > h3 > a {
+    color: #222;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+
+.news > .item-news > h3 > a:hover {
+    color: #087cce;
+}
+
+.news > .item-news > div > p > a{
+    color: #222;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+}
+
+.topics {
+    border-left: 2px solid #e5e5e5;
+}
+
+.box-category > div:nth-child(1) > h3 {
+    position: relative;
+}
+
+.box-category > div:nth-child(1) > h3:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #9f224e;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+.box-category > div:nth-child(1) > h3 > a {
+    color: #222;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+
+.box-category > div:nth-child(1) > ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.box-category > div:nth-child(1) > ul > li > a {
+    float: left;
+    margin-left: 16px;
+    font-size: 13px;
+    color: #4f4f4f;
+    line-height: 1.1538461538;
+    font-family: arial;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.box-category > div:nth-child(2) {
+    position: relative;
+}
+
+.box-category > div:nth-child(2):before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #e5e5e5;
+    position: absolute;
+    left: 10px;
+    bottom: -5px;
+}
+
+.box-category > div:nth-child(2) h3 > a{
+    color: #222;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+
+.box-category > div:nth-child(2) h3 > a:hover{
+    color: #087cce;
+}
+
+.box-category > div:nth-child(2) p > a{
+    color: #222;
+    font-size: 13px;
+    font-family: 'Merriweather', serif;
+}
+
+.box-category > div:nth-child(2) > div:nth-child(2) {
+    position: relative;
+}
+
+@media only screen and (min-width: 992px) {
+    .box-category > div:nth-child(2) > div:nth-child(2):before {
+        width: 2px;
+        height: 100%;
+        content: "";
+        background: #e5e5e5;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.box-category > div:nth-child(3) {
+    position: relative;
+}
+
+.box-category > div:nth-child(3):before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #e5e5e5;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+.box-category > div:nth-child(3) > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box-category > div:nth-child(3) > ul > li {
+    position: relative;
+}
+
+.box-category > div:nth-child(3) > ul > li:before {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    content: "";
+    background: #ababab;
+    position: absolute;
+    top: 10px;
+    left: -15px;
+}
+
+.box-category > div:nth-child(3) > ul > li > a{
+    color: #222;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}

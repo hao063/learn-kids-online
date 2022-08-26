@@ -1,0 +1,5 @@
+<?php if(!empty($data['data']['name'])): ?>
+    value="<?= $data['data']['name'] ?>"
+<?php else: ?>
+    value="<?= !empty($_POST['name']) ? $_POST['name'] : '' ?>"
+<?php endif; ?>

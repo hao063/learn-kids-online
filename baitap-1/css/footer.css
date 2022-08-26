@@ -1,0 +1,143 @@
+footer {
+    padding: 0 10%;
+    margin-top: 20px;
+    z-index: 1;
+}
+footer>div {
+    border-top: 3px solid gray;
+    padding-top: 20px;
+}
+footer .footer-category-title>li {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+footer .footer-category-title>li:nth-child(6) {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+footer .category-list-child>li {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.category-list-child-orther {
+    position: relative;
+}
+.category-list-child-orther::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 250px;
+    background: gray;
+    top: 5px;
+    left: 3px;
+}
+
+.block_footer-2 h5{
+    color: rgb(164, 164, 164);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.block_footer-2>div:nth-child(1)>div{
+    display: flex;
+}
+
+.block_footer-2>div:nth-child(1)>div button {
+    padding: 2px 15px;
+    border: none;
+    background: rgb(244, 242, 242);
+    outline: none;
+    color: #000;
+    box-sizing: 0px 0px 3px 0px gray;
+    margin: 10px;
+    border-radius: 3px;
+}
+.block_footer-2>div:nth-child(2) .contain>div{
+    /* float: left; */
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.block_footer-2>div:nth-child(3)>div h4 {
+    font-size: 17px;
+}
+
+.block_footer-2>div:nth-child(3)>div p {
+    font-size: 13px;
+}
+
+.f2-block__1 p {
+    margin-top: 11px;
+    margin-right: 12px;
+    font-size: 16px;
+    margin-left: 31px;
+}
+
+.cnt-f2-block__2{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.f2-block__2>div{
+    color: gray;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.f2-block__2>div:nth-child(1){
+    position: relative;
+    margin-right: 20px;
+}
+
+.f2-block__2>div:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 16px;
+    background: gray;
+    top: 6px;
+    left: 43px;
+}
+.f2-block__2 .icon{
+    border: 1px solid;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.cnt-f2-block__3{
+    margin-top: 20px;
+}
+
+.cnt-f2-block__3 h5{
+    font-size: 16px;
+}
+.cnt-f2-block__3 p {
+    font-size: 14px;
+}
+
+.back-up-top{
+    position: fixed;
+    bottom: 17px;
+    right: 37px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #8080806b;
+    border-radius: 3px;
+    font-size: 17px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #fff;
+}
+
+.back-up-top:hover {
+    background: rgb(220, 219, 219);
+}
